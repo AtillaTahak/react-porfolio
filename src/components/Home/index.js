@@ -59,7 +59,7 @@ const Home = () => {
                             idx={22}
                         />
                     </h1>
-                    <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+                    <h2>Full-Stack Web Developer. JavaScript, C#, Asp.net, PHP, Rails, React, Redux. Improving open-source projects, one commit at a time</h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
                     </Link>
