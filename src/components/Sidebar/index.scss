@@ -83,10 +83,16 @@
           content: 'ABOUT';
         }
       }
-  
+
       a.contact-link {
         &:after {
           content: 'CONTACT';
+        }
+      }
+  
+      a.mywork-link {
+        &:after {
+          content: 'MY-WORK';
         }
       }
   

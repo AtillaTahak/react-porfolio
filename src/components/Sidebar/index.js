@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logoMy.svg';
 //import LogoSubtitle from '../../assets/images/logo_sub.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faLightbulb, faUser } from '@fortawesome/free-solid-svg-icons';
 import {
     faLinkedin,
     faGithub,
@@ -24,6 +24,9 @@ const Siderbar = () => {
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                </NavLink>
+                <NavLink exact="true" activeclassname="active" className="mywork-link" to="/my-work">
+                    <FontAwesomeIcon icon={faLightbulb} color="#4d4d4e" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
