@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -32,11 +31,11 @@ const About = () => {
             />
           </h1>
           <p>
-          I'm a full-stack developer specializing in using HTML,CSS,JavaScript,Asp.Net MVC to build software solutions for small businesses.
+          I'm a full-stack developer specializing in using HTML,CSS,JavaScript,Asp.Net MVC,Ruby,Ruby on Rails to build software solutions for small businesses.
            Also, I built a Qr menu system for restaurants and an automated system for hospitals
           </p>
           <p align="LEFT">
-          I’m currently completing coursework at Microverse, a remote software development that allows devs from all over the world to pair-program and build projects together. 
+          I completed coursework at Microverse, a remote software development that allows devs from all over the world to pair-program and build projects together. 
           So if we take into account previous experiences, I know two sides consider what they want to and programer what they want to. Currently Searching for new Opportunities
           </p>
           <p>
